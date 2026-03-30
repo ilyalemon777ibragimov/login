@@ -1,0 +1,27 @@
+body {
+	color: #ff6600;
+	background: black;
+	text-align: center;
+}
+input{
+	background: black;
+	border: 3px solid #ff6600;
+	color:  #ff6600;
+}
+input::placeholder {
+	color:  #ff6600;
+}
+input:focus {
+	outline: none;
+	border: 3px solid white;
+	color: white;
+}
+input:focus::placeholder {
+	color:  white;
+}
+button {
+	background:  #ff6600;
+	color: black;
+	border: none;
+	outline: none;
+}
